@@ -1,0 +1,30 @@
+{
+  "name": "openai-swarm-node",
+  "version": "1.0.5",
+  "description": "Swarm.js - A Node.js SDK for OpenAI multi-agent orchestration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openai",
+    "swarm",
+    "nodejs",
+    "agent",
+    "llm",
+    "gpt",
+    "chatgpt",
+    "agentic-framework",
+    "multi-agent",
+    "orchestration",
+    "ai",
+    "chat",
+    "chatbot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "joi": "^17.13.3",
+    "openai": "^4.67.3"
+  }
+}

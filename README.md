@@ -172,9 +172,16 @@ const agent = new Agent({
 Swarm.js automatically converts functions into JSON schemas, allowing OpenAI’s API to call the appropriate function based on the tool name.
 
 ```javascript
-const greet = (name, age) => {
-  return `Hello ${name}, you are ${age} years old!`;
-};
+function lookUpItem(searchQuery) {
+    /**
+     * @description Use to find item ID. Search query can be a description or keywords.
+     * @param {string} searchQuery - Description or keywords to search for the item.
+     * @returns {string} - The found item ID.
+     */
+
+    return console.log(`Searching for item: ${searchQuery}`);
+}
+
 ```
 
 ## Streaming

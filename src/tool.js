@@ -107,7 +107,7 @@ function convertFunctionToJsonSchema(fn) {
 
  
   // Return the generated JSON schema
-  return JSON.stringify(functionSchema, null, 2);
+  return functionSchema;
 }
 
 // Example usage
@@ -121,4 +121,11 @@ function helloWorld(name, city="Home") {
     return `Hello, ${name}! Welcome to ${city}!`;
 }
 
-console.log(convertFunctionToJsonSchema(helloWorld));
+
+module.exports = {
+    convertFunctionToJsonSchema,
+   
+}
+
+
+

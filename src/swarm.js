@@ -1,4 +1,3 @@
-const { Configuration, OpenAIApi } = require("openai");
 
 class Swarm {
   constructor(apiKey) {
